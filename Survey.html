@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="Survey.css">
+        </head>
+
+        <body>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form id="survey-form">
+                <fieldset class="one">
+              <label for="name">Name<br><input id="name" type="text" required placeholder="Enrich Farifield" class="in"></label><br>
+              <label for="mail">Email<br><input id="email" type="email" required placeholder="example@gmail.com" class="in"></label><br>
+              <label for="age">Age(Optional)<br><input id="number" type="number" placeholder="22" min="18" max="70" class="in"></label><br>
+              <label for="role">Which Option best describes your current role?<br><select id="dropdown" class="in">
+                  <option value="">Select current role</option>
+                  <option value="1">Student</option>
+                  <option value="2">Full Time Job</option>
+                  <option value="3">Full Time Learner</option>
+                  <option value="4">Prefer Not To Say</option>
+                  <option value="5">Others</option></select></label>
+
+                                    
+              </fieldset>
+              <fieldset>
+<label id="recommend">Would you recommend freeCodeCamp to others?
+                 <label for="Yes"> <input id="Yes" type="radio" name="rec" class="inline" >Definitely</label>
+                  <label for="maybe"><input id="maybe" type="radio" name="rec" class="inline">Maybe</label>
+                  <label for="notsure"><input id="notsure" type="radio" name="rec" class="inline">Not Sure
+                  </label>
+                  </label>
+                  </fieldset>
+              </form>
