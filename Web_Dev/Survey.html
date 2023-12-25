@@ -12,25 +12,56 @@
             <p id="description">Thank you for taking the time to help us improve the platform</p>
             <form id="survey-form">
                 <fieldset class="one">
-              <label for="name">Name<br><input id="name" type="text" required placeholder="Enrich Farifield" class="in"></label><br>
-              <label for="mail">Email<br><input id="email" type="email" required placeholder="example@gmail.com" class="in"></label><br>
-              <label for="age">Age(Optional)<br><input id="number" type="number" placeholder="22" min="18" max="70" class="in"></label><br>
-              <label for="role">Which Option best describes your current role?<br><select id="dropdown" class="in">
+              <label for="name" id="name-label">Name<br><input id="name" type="text" required placeholder="Enrich Farifield" class="in"></label><br>
+              <label for="mail" id="email-label">Email<br><input id="email" type="email" required placeholder="example@gmail.com" class="in"></label><br>
+              <label for="age" id="number-label">Age(Optional)<br><input id="number" type="number" placeholder="Age" min="18" max="70" class="age"></label><br>
+              <label for="role">Which Option best describes your current role?<br><select id="dropdown" class="drop">
                   <option value="">Select current role</option>
                   <option value="1">Student</option>
                   <option value="2">Full Time Job</option>
                   <option value="3">Full Time Learner</option>
                   <option value="4">Prefer Not To Say</option>
-                  <option value="5">Others</option></select></label>
-
-                                    
+                  <option value="5">Others</option></select></label>     
               </fieldset>
-              <fieldset>
-<label id="recommend">Would you recommend freeCodeCamp to others?
-                 <label for="Yes"> <input id="Yes" type="radio" name="rec" class="inline" >Definitely</label>
-                  <label for="maybe"><input id="maybe" type="radio" name="rec" class="inline">Maybe</label>
-                  <label for="notsure"><input id="notsure" type="radio" name="rec" class="inline">Not Sure
-                  </label>
-                  </label>
-                  </fieldset>
+              <fieldset class="two">
+                <label id="recommend">Would you recommend freeCodeCamp to others?</label><br>
+                 <label for="Yes"> <input id="Yes" type="radio" name="rec" class="inline" value="yes" >Definitely</label><br>
+                  <label for="maybe"><input id="maybe" type="radio" name="rec" class="inline" value="maybe">Maybe</label><br>
+                  <label for="notsure"><input id="notsure" type="radio" value="notsure" name="rec" class="inline">Not Sure</label><br>
+                </fieldset>
+                <fieldset class="three">
+                    <label for="fav">What is your favourite feature of freeCodeCamp?<br><select id="dropdown" class="in">
+                    <option value="">Select an option</option>
+                    <option value="1">Challenges</option>      
+                    <option value="2">Projects</option>      
+                    <option value="3">Community</option>      
+                    <option value="4">Open Source</option>      
+                </select></label>
+                </fieldset>
+
+                <fieldset class="four">
+                    <label for="improvement">What would you like to see imporved (check all that apply)<br>
+                        <input type="checkbox" name="imp" value="improvement" id="front-end-projects">&nbsp Front-End Projetcs <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Back end projects">&nbsp Back-End Projects   <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Data visualization">&nbsp Data Visualization <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Challenges">&nbsp Challenges <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Open source community">&nbsp Open Source Community <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Gitter help rooms">&nbsp Gitter help rooms <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Videos">&nbsp Videos <br>
+                        <input type="checkbox" name="imp" value="improvement" id="City Meetups">&nbsp City Meetups <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Wiki">&nbsp Wiki <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Forum">&nbsp Forum <br>
+                        <input type="checkbox" name="imp" value="improvement" id="Additional Courses">&nbsp Additional Courses <br>
+                    </label>
+                </fieldset>
+
+                <fieldset class="five">
+                    <label for="additional-comments">Any comments or suggestions?<br>
+                        <textarea name="additional-comments" id="comments" cols="40" rows="5"></textarea>
+                    </label>
+                </fieldset><br>
+                <br>
+                <input type="submit" class="Submit" id="submit" value="Submit">
               </form>
+</body>
+</html>

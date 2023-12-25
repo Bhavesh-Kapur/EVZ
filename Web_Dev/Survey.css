@@ -2,14 +2,54 @@
     /* font-size: .85rem;
     text-align: center;
     line-height: 150%; */
-
-    padding-left: 200px;
-    padding-right: 200px;
+    height: 39px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid ;
+    padding-right: 450px;
 }
 
+.age{
+    /* font-size: .85rem;
+    text-align: center;
+    line-height: 150%; */
+    height: 39px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid ;
+    padding-right: 627px;
+}
+
+.drop{
+     /* font-size: .85rem;
+    text-align: center;
+    line-height: 150%; */
+    height: 39px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid ;
+    padding-right: 460px;
+}
 
 body{
-    margin-left: 150px;
-    margin-right: 150px;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
     background-color:#a8dadc;
 }
+
+/* select{
+    padding-left: 200px;
+    padding-right: 200px;
+} */
+
+.Submit{
+    font-size: 20px;
+    background-color: #e5e5e5;
+    color: black;
+    height: 40px;
+    padding-left: 350px;
+    padding-right: 330px;
+}
+
+  
